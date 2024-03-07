@@ -1,77 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact us</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-   <style>h1 {text-align: center;}</style> 
-
-<style>
-    table,th,td {
-        border:3px solid black;
-        border-collapse: collapse;
-    }
-</style>
-<style>
-    table {
-        font-size:20px;
-        text-align:right;
-        margin-top:-30px;
-        }
-
-</style>
 </head>
 <body>
+    <center>
     <h1>Guvi Geek Mini task</h1>
-<div>
-    <h2>Programing languages</h2>
-    <ul style="list-style-type:circle">
-        <li>JavaScript</li>
-        <ol style="list-style-type:lower-alpha">
-        <li>Angular</li>
-        <li>React</li>
-        <li>Vue.js</li>  
-        </ol>
-    </ul>
-    <ul style="list-style-type:circle">
-        <li>Python</li>
-    <ol style="list-style-type:lower-alpha">
-        <li>Django Framework</li>
-        <li>Flask Framework</li>
-    </ol>
-    </ul>
-    <ul style="list-style-type:circle">
-        <li>Java</li>
-        <ol style="list-style-type:lower-alpha">
-            <li>Spring</li>
-            <li>Maven</li>
-            <li>hibernate</li>
-        </ol>
-    </ul>
-    <h2>Database</h2>
-    <ul style="list-style-type:circle">
-        <li>MySQL</li>
-        <li>MongoDB</li>
-        <li>Cansandra</li>
-    </ul>
+    </center>
+    <div>
+        <h2>Programing languages</h2>
+        <ul style="list-style-type:circle">
+            <li>JavaScript</li>
+            <ol style="list-style-type:lower-alpha">
+                <li>Angular</li>
+                <li>React</li>
+                <li>Vue.js</li>
+            </ol>
+        </ul>
+        <ul style="list-style-type:circle">
+            <li>Python</li>
+            <ol style="list-style-type:lower-alpha">
+                <li>Django Framework</li>
+                <li>Flask Framework</li>
+            </ol>
+        </ul>
+        <ul style="list-style-type:circle">
+            <li>Java</li>
+            <ol style="list-style-type:lower-alpha">
+                <li>Spring</li>
+                <li>Maven</li>
+                <li>hibernate</li>
+            </ol>
+        </ul>
+        <h2>Database</h2>
+        <ul style="list-style-type:circle">
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Cansandra</li>
+        </ul>
 
-</div>
+    </div>
     <a href="https://www.google.co.in/" target="_blank">click the link to search</a>
     <br>
 
-   <mark>HTML and CSS is awesome</mark> 
-   <br>
+    <mark>HTML and CSS is awesome</mark>
+    <br>
     <div>
-        <table>
-        <h2>health chart</h2>
+        <table border="2">
+            <h2>health chart</h2>
             <tr>
                 <th>state of health</th>
                 <th colspan="2">fasting value</th>
                 <th>After eating</th>
             </tr>
             <tr>
-                <th>  </th>
+                <th> </th>
                 <th>minimum</th>
                 <th>maximum</th>
                 <th>2 hrs After eating</th>
@@ -97,52 +84,74 @@
             </tr>
         </table>
     </div>
-    <div>
+    <table>
         <form>
-            <table>
-          <h3>student form</h3>
-          <div>
-          <label for="name">Enter your Name</label>
-<input type="text" placeholder="enter your name" id="name">
-<br>
- </div>
-<div>
-<label for="age">Enter your age</label>
-<input type="number" placeholder="enter your age" id="age">
-<br>
-</div>
-</table>
-</form>
-    <div>
-        <form>
-            <h3>contact Us</h3>
-            <p>feel free to say hi and stop by!</p>
-            <div>
-                <label for="Name" >Name:</label>
-                <input type ="text" id = "name"/>
-            </div>
-            <br>
-            <div>
-                <label for="email">Email:</label>
-                <input type="mail" name="mail" id="mail" />
-            </div>
-            <br>
-            <div>
-                <label for="contact number">phone:</label>
-                <input type ="tel" name ="phone" id="number"/>
-            </div>
-            <br>
-            <div>
-                <label for="subject">subject:</label>
-                <input type ="text" id="subject"/>
-            </div>
-            <br>
-            <div>
-                <input type="submit" value="send"/>
-            </div>
-            
+            <h2>Student Form</h2>
+                <tr>
+                    <td> Enter your Name</td>
+                    <td><input type="text" placeholder="enter your name" id="name"></td>
+                </tr>
+                <tr>
+                    <td>Enter your age</td>
+                    <td><input type="number" placeholder="enter your age" id="age"></td>
+                    </tr>
+                    <tr>
+                    <td>Enter your Address</td>
+                    <td><input type="text" placeholder="enter your address" id="address"></td>
+                    </tr>
+                    <td> gender</td>
+                    <td><input type="radio" name="gender">Male 
+                        <input type="radio" name="gender">Female
+                    </td>
+                    <tr>
+                        <td>Programing languages</td>
+                        <td>
+                            <select>
+                                <option>JavaScript</option>
+                                <option>Python</option>
+                                <option>Java</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                    <td>upload resume</td>
+                    <td><input type = "file"></td>
+                    </tr>
+                  <tr>  
+                   <td> </td> <td><input type="submit"></td>
+                    </tr>
         </form>
-    </div>
-    
+        </table>
+        <div>
+            <form>
+                <h3>contact Us</h3>
+                <p>feel free to say hi and stop by!</p>
+                <div>
+                    <label for="Name">Name:</label>
+                    <input type="text" id="name" />
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="mail" name="mail" id="mail" />
+                </div>
+                <br>
+                <div>
+                    <label for="contact number">phone:</label>
+                    <input type="tel" name="phone" id="number" />
+                </div>
+                <br>
+                <div>
+                    <label for="subject">subject:</label>
+                    <input type="text" id="subject" />
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="send" />
+                </div>
+
+            </form>
+        </div>
 </body>
+
 </html>
