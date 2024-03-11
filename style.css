@@ -1,9 +1,31 @@
-h1 {
-    font-size: 60px;
-    text-align: center;
-}
+
 body
 {
     background-color: beige;
     text-align: center;
+}
+h1 {
+    color: blue;
+    background-color: yellow;
+    border: 1px solid black;
+}
+p {
+    color: red;
+}
+div:active {
+    background-color: aquamarine;
+}
+div:hover{
+    background-color:bisque;
+}
+input:hover{
+    border: 0cqi;
+    background-color: aqua;
+}
+ul.a {
+    list-style-position: outside;
+}
+
+ul.b {
+    list-style-position: inside;
 }
